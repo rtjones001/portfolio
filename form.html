@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>HTML Code-along</title>
+	</head>
+	
+	<body>
+		.warning{
+			font-weight: bold;
+			color: red;
+		}
+		<form action="fakePage.html" method="POST">
+			Text Input: <input type="text" name="myTextInput" required /><br/>
+			Radio Buttons:<br/>
+				<input type="radio" name="answer" value="YES" checked />Yes<br>
+				<input type="radio" name="answer" value="NO" />No<br>
+				<input type="radio" name="answer" value="MAYBE" />MayBe</br>
+			<p class="warning">Password is required!</p>
+			Password Input: <input type="password" name="userPassword" /><br/>
+				<input type="checkbox" name="myChoices" value="Soup" checked />Soup<br/>
+				<input type="checkbox" name="myChoices" value="Salid" checked />Salid<br/>
+				<input type="checkbox" name="myChoices" value="Fries" checked />Fries<br/>
+				<input type="checkbox" name="myChoices" value="Dessert" checked />Dessert<br/>
+			<select name="phones">
+				<option value="iPhone6">Mac OS</option>
+				<option value="GalaxyS6">Windows</option>
+				<option value="Nexus5">Linux</option>
+			</select><br/>
+			<textarea name="briefDescription"></textarea><br/>
+			<input type="submit" value="Submit"/><input type="reset" /><br/>
+		</form>
+	</body>
+</html>
